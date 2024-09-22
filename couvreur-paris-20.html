@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="geo.region" content="FR-IDF">
+    <meta name="geo.placename" content="20e arrondissement, Paris, France">
+    <meta name="geo.position" content="48.8635;2.4019">    
+    <meta name="robots" content="index, follow">
+    <meta name="description"
+        content="Aquaserv couverture, votre partenaire couverture dans le 20e Arrondissement de Paris. Experts en curage des canalisations, débouchage des canalisations, inspection camera des canalisations, pompage fosse septique et nettoyage bac à graisse.">
+    <link href="style.css" rel="stylesheet">
+    <title>Debouchage canalisations | Vidange fosse septique Paris 20</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="96x96"
+        href="./logo/apple-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./logo/android-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./logo/android-icon-96x96.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./logo/ms-icon-32x32.png">
+    <meta name="msapplication-TileImage" content="./logo/ms-icon-96x96.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Aquaserv couverture 75",
+        "description": "couverture 75 est une entreprise spécialisée dans les services d'couverture à Paris, offrant un large éventail de prestations, y compris le débouchage des canalisations, le nettoyage des canalisations, l'inspection par caméra des canalisations, la vidange de fosses septiques, l'installation de pompes de relevage pour eaux usées et des services d'urgence en couverture.",
+        "url": ".",
+        "telephone": "+33169520023",
+        "image": [
+            "./debouchage.webp",
+            "./curage.webp",
+            "./camera.webp",
+            "./pompage.webp",
+            "./pompe-de-relevage.webp"
+        ],
+        "serviceType": [
+            "debouchage canalisation",
+            "curage canalisations",
+            "nettoyage canalisations",
+            "camera pour canalisation",
+            "vidange fosse septique",
+            "debouchage fosse septique",
+            "vidange bacs à graisse",
+            "pompe de relevage",
+            "urgence plomberie",
+            "urgence couverture"
+        ],
+        "areaServed": {
+            "@type": "City",
+            "name": "Paris"
+        },
+        "geo": {
+            "@type": "GeoShape",
+            "region": "Île-de-France",
+            "placename": "Paris"
+        }
+        }
+    </script>
+    <link rel="preload" href="couvreur-val-doise.jpg" as="image">  
+      
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="w.nicolas.png" alt="entreprise débouchage canalisation Paris 20" class="logo">
+        </a>
+        <label for="btn" class="icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="80" height="11"></rect>
+                <rect y="26" width="60" height="11"></rect>
+                <rect y="52" width="70" height="11"></rect>
+            </svg>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" title="couverture paris">ACCUEIL</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#prestation" title="services couverture">NOS SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a href="couverture-paris-75.html" title="entreprise couverture">L'ENTREPRISE</a>
+            </li>
+            <li class="nav-item">
+                <a href="prix-couverture-paris-75.html" title="devis couverture">DEVIS GRATUIT</a>
+            </li>
+            <li class="nav-item">
+                <a href="tel:+33169520023" title="prix couverture">01 69 52 00 23</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="image-index">
+        <img src="couvreur-val-doise.jpg" alt="entreprise couverture Paris 20" class="background-image">
+        <h1><i>couverture Paris 20</i></h1>
+        <a class="bouton-devis1" href="prix-couverture-paris-75.html" title="prix couverture">DEVIS GRATUIT</a>
+    </div>
+    <div class="form-container">
+        <div class="image-container">
+            <img src="w.nicolas.png" alt="entreprise débouchage canalisation Paris 20">
+        </div>
+        <h2>(pas de spam)</h2>
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="nom" required>
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="telephone" required>
+            <label for="services">Prestations :</label>
+            <select id="services" name="services" required>
+                <option value="BAC A GRAISSE">BAC À GRAISSE</option>
+                <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
+                <option value="CURAGE">CURAGE</option>
+                <option value="DEGORGEMENT">DÉGORGEMENT</option>
+                <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
+                <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
+                <option value="POMPAGE">POMPAGE</option>
+                <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
+                <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
+                <option value="URGENCE">URGENCE</option>
+            </select>
+            <label for="comments">Commentaires :</label>
+            <textarea id="comments" name="commentaires" rows="4"></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
+    <h2 id="prestation">Nos Services couverture Paris 20</h2>
+    <div class="icon-anime">
+        <div class="icon-item1"><img src="debouchage.webp" alt="deboucher les canalisation Paris 20" loading="lazy"
+                decoding="async">
+            <p><strong class="strong-color"><a href="debouchage-canalisation-paris-75.html" title="debouchage canalisation Paris 20">DEBOUCHAGE</a></strong></p>
+            <h3>Débouchez vos canalisations de tout engorgement avec notre service de dégorgement dédié. Dotés
+                d'une expertise technique pointue et d'une approche attentive, nous nous engageons à restaurer la
+                fluidité de vos canalisations.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="debouchage canalisation Paris 20">CONTACTEZ - NOUS</a>
+        </div>
+        <div class="icon-item2"><img src="curage.webp" alt="nettoyage des canalisations Paris 20" loading="lazy"
+                decoding="async">
+            <p><strong class="strong-color"><a href="curage-canalisation-paris-75.html" title="curage canalisation Paris 20">CURAGE CANALISATION</a></strong></p>
+            <h3>Offrez à vos canalisations un nettoyage en profondeur grâce à notre service de curage. Dotés
+                d'une expertise technique pointue, nous nous engageons à éliminer
+                efficacement les impuretés, les dépôts et les résidus accumulés dans vos réseaux. Le curage régulier de
+                vos canalisations permet de prévenir les obstructions et les dysfonctionnements.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="curage canalisation Paris 20">CONTACTEZ - NOUS</a>
+        </div>
+        <div class="icon-item3"><img src="camera.webp" alt="camera pour canalisation Paris 20" loading="lazy" decoding="async">
+            <p><strong class="strong-color"><a href="camera-canalisation-paris-75.html" title="camera canalisation Paris 20">INSPECTION CAMÉRA</a></strong></p>
+            <h3>Plongez dans une perspective inédite de vos installations grâce à notre service de passage de caméra.
+                Avec une expertise technique pointue et une approche méticuleuse, nous vous offrons une vision détaillée
+                de l'intérieur de vos canalisations.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="camera canalisation Paris 20">CONTACTEZ - NOUS</a>
+        </div>
+        <div class="icon-item4"><img src="pompage.webp" alt="vidanger la fosse septique Paris 20" loading="lazy"
+                decoding="async">
+            <p><strong class="strong-color"><a href="vidange-fosse-septique-paris-75.html" title="vidange fosse septique Paris 20">POMPAGE</a></strong></p>
+            <h3>Avec une expertise spécialisée dans le pompage de fosses septiques, de bacs à graisse et le traitement
+                des eaux usées, nous vous proposons des services complets pour assurer la propreté et le bon
+                fonctionnement de vos installations.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="prix vidange fosse septique paris 20">CONTACTEZ - NOUS</a>
+        </div>
+        <div class="icon-item4"><img src="pompe-de-relevage.webp" alt="pompe de relevage eaux usées Paris 20" loading="lazy"
+                decoding="async">
+            <p><strong class="strong-color"><a href="pompe-de-relevage-paris-75.html" title="pompe de relevage Paris 20">POMPE DE RELEVAGE</a></strong></p>
+            <h3>Optimisez le contrôle de vos eaux usées avec notre service de pompe de relevage de pointe. Que ce soit
+                pour les eaux usées domestiques ou industrielles, notre équipe dédiée assure une gestion efficace grâce
+                à nos pompes de relevage de qualité supérieure.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="pompe de relevage Paris 20">CONTACTEZ - NOUS</a>
+        </div>
+        <div class="icon-item4"><img src="urgence-couverture.webp" alt="urgence couverture Paris 20" loading="lazy"
+                decoding="async">
+            <p><strong class="strong-color"><a href="fuite-toiture-95-val-doise.html" title="urgence couverture Paris 20">URGENCE</a></strong></p>
+            <h3>En cas d'urgence, nous sommes là pour vous. Notre équipe d'experts en couverture se déplace
+                rapidement et efficacement pour répondre à vos besoins critiques. Que ce soit pour un débouchage urgent,
+                une inspection par caméra ou toute autre intervention nécessaire, comptez sur nous pour intervenir
+                rapidement.</h3>
+            <a class="bouton-devis3" href="tel:0169520023" title="urgence couverture Paris 20">CONTACTEZ - NOUS</a>
+        </div>
+    </div>
+    <div class="container-index">
+        <img src="debouchage.webp" alt="deboucher wc Paris 20" class="image" loading="lazy"
+        decoding="async">
+        <div class="text">
+            <p><a href="debouchage-canalisation-paris-75.html" title="deboucher les canalisation Paris 20"><strong>Débouchage canalisations</strong></a> : Débouchez vos canalisations de tout engorgement avec notre
+                service de debouchage de canalisation. Dotés
+                d'une expertise technique pointue et d'une approche attentive, nous nous engageons à restaurer la
+                fluidité de vos canalisations.</p>
+        </div>
+    </div>
+    <div class="container-index2">
+        <div class="text2">
+            <p><a href="curage-canalisation-paris-75.html" title="nettoyage canalisation Paris 20"><strong>Nettoyage canalisations</strong></a> : Offrez à vos canalisations un nettoyage en profondeur grâce à
+                notre service de curage. Le curage
+                régulier de vos canalisations permet de prévenir les
+                obstructions et les dysfonctionnements. Faites confiance à notre équipe pour assurer le bon
+                fonctionnement de votre couverture individuel.</p>
+        </div>
+        <img src="curage.webp" alt="curage des canalisations Paris 20" class="image2" loading="lazy"
+        decoding="async">
+    </div>
+    <div class="container-index">
+        <img src="camera.webp" alt="camera pour canalisation Paris 20" class="image" loading="lazy"
+        decoding="async">
+        <div class="text">
+            <p><a href="camera-canalisation-paris-75.html" title="camera inspection canalisation Paris 20"><strong>Camera canalisations</strong></a> : Plongez dans une perspective inédite de vos installations grâce à
+                notre service de passage de caméra.
+                Avec une expertise technique pointue et une approche méticuleuse, nous vous offrons une vision détaillée
+                de l'intérieur de vos canalisations.</p>
+        </div>
+    </div>
+    <div class="container-index2">
+        <div class="text2">
+            <p><a href="vidange-fosse-septique-paris-75.html" title="vidange bac a graisse Paris 20"><strong>Pompage</strong></a> : Avec une expertise spécialisée dans le pompage de fosses septiques, de bacs à
+                graisse et le traitement
+                des eaux usées, nous vous proposons des services complets pour assurer la propreté et le bon
+                fonctionnement de vos installations.</p>
+        </div>
+        <img src="pompage.webp" alt="vidanger la fosse septique Paris 20" class="image2" loading="lazy"
+        decoding="async">
+    </div>
+    <div class="container-index">
+        <img src="pompe-de-relevage.webp" alt="pompe de relevage Paris 20" class="image" loading="lazy"
+        decoding="async">
+        <div class="text">
+            <p><a href="pompe-de-relevage-paris-75.html" title="pompe de relevage Paris 20"><strong>Pompe de relevage</strong></a> : Optimisez le contrôle de vos eaux usées avec notre service de pompe
+                de relevage de pointe. Que ce soit
+                pour les eaux usées domestiques ou industrielles, notre équipe dédiée assure une gestion efficace grâce
+                à nos pompes de relevage de qualité supérieure.</p>
+        </div>
+    </div>
+    <div class="container-index2">
+        <div class="text2">
+            <p><a href="fuite-toiture-95-val-doise.html" title="urgence couverture Paris 20"><strong>Urgence</strong></a> : En cas d'urgence, nous sommes là pour vous. Notre équipe d'experts en
+                couverture se déplace
+                rapidement et efficacement pour répondre à vos besoins critiques. Que ce soit pour un débouchage urgent,
+                une inspection par caméra ou toute autre intervention nécessaire, comptez sur nous pour intervenir
+                rapidement et résoudre vos problèmes d'couverture.</p>
+        </div>
+        <img src="urgence-couverture.webp" alt="urgence couverture Paris 20" class="image2" loading="lazy"
+        decoding="async">
+    </div>
+    <div id="tarif">
+        <h1>NOS TARIFS</h1>
+        <h4>COMPÉTITIFS</h4>
+        <p>Chez couverture 75, nous vous garantissons des services d'couverture de première qualité à des
+            tarifs attractifs. Notre engagement est de vous fournir des solutions efficaces qui répondent à vos besoins
+            tout en respectant votre budget.</p>
+        <p> prix vidange fosse septique - prix couverture individuel - prix debouchage canalisation - prix
+            debouchage wc - inspection caméra canalisation prix - prix hydrocurage - prix pompe de relevage - Vidange
+            micro station tarif - fosses septiques prix - prix nettoyage fosse septique - travaux
+            couverture prix - prix nettoyage bac à graisse
+        </p>
+        <a class="bouton-devis2" href="prix-couverture-paris-75.html" title="prix couverture">DEVIS GRATUIT</a>
+    </div>
+    <h2 id="nos-valeurs">NOS VALEURS</h2>
+    <div class="valeur">
+        <div class="confiance">
+            <h3>QUALITÉ</h3>
+        </div>
+        <h4>SYNONYME DE PASSION</h4>
+        <p>La règle d’or de l’entreprise est de rendre à la clientèle un travail de qualité. Le respect du savoir faire
+            et l’écoute permettent à eux seuls d’avoir une satisfaction client, et un résultat pérenne.</p>
+    </div>
+    <div class="valeur">
+        <div class="confiance">
+            <h3>PASSION</h3>
+        </div>
+        <h4>SYNONYME DE PLAISIR</h4>
+        <p>La passion du travail, passe par le plaisir. Une réalisation réussie est la clé d’un client satisfait. Chaque
+            projet est unique et demande une personnalisation qui commence par l’écoute et le conseil.</p>
+    </div>
+    <div class="valeur">
+        <div class="confiance">
+            <h3>ENGAGEMENT</h3>
+        </div>
+        <h4>SYNONYME DE RESPECT</h4>
+        <p>L’engagement mutuel est une forme de respect. Le respect des lieux et de vous même garantissent un travail
+            dans les meilleurs délais. Tout cela afin que vous puissiez vous sentir heureux dans vos locaux le plus
+            rapidement possible.</p>
+    </div>
+    <div class="valeur">
+        <div class="confiance">
+            <h3>CONFIANCE</h3>
+        </div>
+        <h4>SYNONYME DE SECURITÉ</h4>
+        <p>La confiance dans une entreprise est le socle de la réussite. L’écoute des besoins de chacun ainsi que le
+            conseil permet de créer un climat de confiance. Le résultat de cette confiance réciproque donnera une valeur
+            ajoutée à vos intérieurs.</p>
+    </div>
+    <h2>CONTACTEZ - NOUS</h2>
+    <div class="form-container">
+        <div class="image-container">
+            <img src="w.nicolas.png" alt="entreprise débouchage canalisation Paris 20">
+        </div>
+        <h2>(pas de spam)</h2>
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="nom" required>
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="telephone" required>
+            <label for="services">Prestations :</label>
+            <select id="services" name="services" required>
+                <option value="BAC A GRAISSE">BAC À GRAISSE</option>
+                <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
+                <option value="CURAGE">CURAGE</option>
+                <option value="DEGORGEMENT">DÉGORGEMENT</option>
+                <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
+                <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
+                <option value="POMPAGE">POMPAGE</option>
+                <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
+                <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
+                <option value="URGENCE">URGENCE</option>
+            </select>
+            <label for="comments">Commentaires :</label>
+            <textarea id="comments" name="commentaires" rows="4"></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
+    <h2 id="nos-valeurs">NOS PARTENAIRES</h2>
+    <div class="partenaires-pc">
+        <img src="dumez.webp" alt="aquaserv couverture paris" loading="lazy" decoding="async">
+        <img src="otacos.webp" alt="aquaserv couverture 75" loading="lazy" decoding="async">
+        <img src="sodexo.webp" alt="aquaserv couverture paris" loading="lazy" decoding="async">
+        <img src="sergic.webp" alt="aquaserv couverture 75" loading="lazy" decoding="async">
+    </div>
+    <div class="partenaires-pc">
+        <img src="etf.webp" alt="aquaserv couverture paris" loading="lazy" decoding="async">
+        <img src="vinci.webp" alt="aquaserv couverture 75" loading="lazy" decoding="async">
+        <img src="spie-batignolles.webp" alt="aquaserv couverture paris" loading="lazy" decoding="async">
+        <img src="nexity.webp" alt="aquaserv couverture 75" loading="lazy" decoding="async">
+    </div>
+    <div class="partenaires">
+        <img src="dumez.webp" alt="entreprise débouchage canalisation Paris 20" loading="lazy" decoding="async">
+        <img src="otacos.webp" alt="aquaserv-couverture" loading="lazy" decoding="async">
+        <img src="sergic.webp" alt="couverture 75" loading="lazy" decoding="async">
+        <img src="vinci.webp" alt="entreprise débouchage canalisation Paris 20" loading="lazy" decoding="async">
+        <img src="spie-batignolles.webp" alt="aquaserv-couverture" loading="lazy" decoding="async">
+        <img src="etf.webp" alt="couverture 75" loading="lazy" decoding="async">
+        <img src="nexity.webp" alt="entreprise débouchage canalisation Paris 20" loading="lazy" decoding="async">
+        <img src="sodexo.webp" alt="aquaserv-couverture" loading="lazy" decoding="async">
+    </div>
+    <div id="contact">
+        <h5>HORAIRES</h5>
+        <p>Lundi : 06h - 00h30 <br>
+            Mardi : 06h - 00h30 <br>
+            Mercredi : 06h - 00h30 <br>
+            Jeudi : 06h - 00h30 <br>
+            Vendredi : 06h - 00h30 <br>
+            Samedi : 06h - 00h30 <br>
+            Dimanche : 06h - 00h30 <br><br>
+            Adresse : 9 Rue Condorcet, 91350 Grigny
+        </p>
+        <h5>NOS RÉSEAUX SOCIAUX</h5>
+        <div class="reseau-contact">
+            <a href="https://fr.linkedin.com/in/el-mehdi-dahmane-6b28b2177" target="_blank"
+                title="linkedin-couverture"> Linkedin -</a>
+            <a href="https://www.instagram.com/aquaserv_couverture_91/" target="_blank"
+                title="instagram-couverture"> Instagram -</a>
+            <a href="https://www.snapchat.com/add/aquaservassaini" target="_blank" title="snapchat-couverture">
+                Snapchat -</a>
+            <a href="https://www.facebook.com/aquaserv.couverture" target="_blank" title="facebook-couverture">
+                Facebook</a>
+        </div>
+        <h5>CONTACTEZ - NOUS</h5>
+        <p class="liens">Tel : <a href="tel:+33169520023" target="_blank" title="services couverture"> 01 69 52 00
+                23</a></p>
+        <p class="liens">E-mail : <a href="mailto:contact.aquaserv@gmail.com" target="_blank"
+                title="couverture Paris">contact.aquaserv@gmail.com</a></p>
+        <p class="liens">Site : <a href="https://couverture77.fr/" target="_blank"
+                title="couverture Seine et Marne">Aquaserv Seine et Marne</a></p>
+        <p class="liens">Site : <a href="https://couverture94.fr/" target="_blank"
+                title="couverture Val de Marne">Aquaserv Val de Marne</a></p>
+        <div class="liens-wp">
+            <h6>Site réalisé par <a href="https://webprime.fr/" target="_blank">WebPrime</a> - <a
+                    href="mentions-legales.html" target="_blank">mentions légales</a></h6>
+        </div>
+    </div>
+    <div class="contact-icon"><a href="tel:+33169520023" title="numero plombier paris">01 69 52 00 23</a></div>
+  <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('mouseover', activeLink));
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var menuToggle = document.getElementById("btn");
+            var navLinks = document.querySelectorAll(".nav-menu a");
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    menuToggle.checked = false;
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+            function observeStep(entry, observer) {
+                entry.target.classList.add('slide-in-done');
+                observer.unobserve(entry.target);
+            }
+            function createObserver(element) {
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            observeStep(entry, observer);
+                        }
+                    });
+                }, observerOptions);
+                observer.observe(element);
+            }
+            var elements = document.querySelectorAll('.valeur');
+            elements.forEach(function (element) {
+                createObserver(element);
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                    }
+                });
+            }, options);
+            const elements = document.querySelectorAll('.icon-anime h3, .bouton-devis3, .icon-anime-pc h3');
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value.trim();
+            var tel = document.getElementById("tel").value.trim();
+            var services = document.getElementById("services").value.trim();
+            var comments = document.getElementById("comments").value.trim();
+            if (name === "" || tel === "" || services === "" || comments === "") {
+                alert("Champs obligatoires.");
+                return false;
+            }
+            var telPattern = /^(06|07|\+336|\+337)\d{8}$/;
+            if (!telPattern.test(tel)) {
+                alert("Veuillez entrer un numéro de téléphone valide.");
+                return false;
+            }
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
+            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
+                alert("Pas autorisé.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+
+</html>
