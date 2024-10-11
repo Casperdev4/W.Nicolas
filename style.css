@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #fff;
   margin-top: 5%;
-  font-family:'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #f09000;border-radius: 15px;}
 h1,h2{color:#000000;text-align:center}h1,h2,h3,h4{text-align:center}h1{font-weight:550;font-size:55px;margin-bottom:5%;margin-top:5%;line-height: 1.3;}h2{font-size:40px;font-weight:530;margin:10% 3% 2%}h3{color:#000000;font-weight:200;font-size:18px;margin:2% 3% 5%;line-height:1.5}h4{margin:5% 3%;font-size:20px;font-weight:350}.hr{margin:5% auto auto;width:90%}
@@ -49,6 +49,7 @@ a {text-decoration: none;color: #000000;font-weight: 600}
   width: 80%;
   margin-top: auto;
   z-index: 1;
+  font-family: Georgia, serif;
 }
 .icon-anime{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
 .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin-top:5%;margin-bottom:15%}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:45%;height:auto}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin:5px 0 0;padding:8px;font-size:22px}
