@@ -24,18 +24,22 @@ $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
+$errors = [];
+
 if (est_vide($nom) || est_vide($telephone) || est_vide($services) || est_vide($commentaires)) {
-    echo "Tous les champs sont obligatoires.";
-    exit();
+    $errors[] = "Tous les champs sont obligatoires.";
 }
 
 if (!est_numero_valide($telephone)) {
-    echo "Veuillez entrer un numéro de téléphone valide.";
-    exit();
+    $errors[] = "Veuillez entrer un numéro de téléphone valide.";
 }
 
 if (contient_liens($commentaires) || contient_cyrillique($commentaires)) {
-    echo "Pas autorisés.";
+    $errors[] = "Pas autorisés.";
+}
+
+if (!empty($errors)) {
+    echo implode('<br>', $errors);
     exit();
 }
 
@@ -63,12 +67,12 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'couverture 75');
-    $mail->addAddress('contact.aquaserv@gmail.com');
+    $mail->setFrom('contact@webprime.fr', 'W.Nicolas');
+    $mail->addAddress('w.nicolascouverture@g');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
-    $mail->Subject = 'Formulaire 75';
+    $mail->Subject = 'Formulaire';
     $mail->Body    = nl2br($message);
     $mail->AltBody = $message;
 
@@ -80,3 +84,4 @@ try {
     echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
 }
 ?>
+
