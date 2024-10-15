@@ -9,7 +9,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture</image:title>
     </image:image>
@@ -29,7 +29,7 @@
         <image:title>Étanchéité de toiture</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture</image:title>
     </image:image>
@@ -54,17 +54,17 @@
         <image:title>Urgence réparation toiture</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/couvreur-essonne.webp</image:loc>
         <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
         <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
@@ -173,7 +173,7 @@
 <url>
 <loc>https://couvreurs-91.fr/reparation-toiture-91-essonne.html</loc>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture</image:title>
     </image:image>
@@ -205,7 +205,7 @@
 <url>
 <loc>https://couvreurs-91.fr/peinture-toiture-91-essonne.html</loc>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture</image:title>
     </image:image>
@@ -250,7 +250,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Montgeron</image:title>
     </image:image>
@@ -270,7 +270,7 @@
         <image:title>Étanchéité de toiture Montgeron</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Montgeron</image:title>
     </image:image>
@@ -295,19 +295,14 @@
         <image:title>Urgence réparation toiture Montgeron</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -318,7 +313,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Gif-sur-yvette</image:title>
     </image:image>
@@ -338,7 +333,7 @@
         <image:title>Étanchéité de toiture Gif-sur-yvette</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Gif-sur-yvette</image:title>
     </image:image>
@@ -363,19 +358,14 @@
         <image:title>Urgence réparation toiture Gif-sur-yvette</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -386,7 +376,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Corbeil-essonnes</image:title>
     </image:image>
@@ -406,7 +396,7 @@
         <image:title>Étanchéité de toiture Corbeil-essonnes</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Corbeil-essonnes</image:title>
     </image:image>
@@ -431,19 +421,14 @@
         <image:title>Urgence réparation toiture Corbeil-essonnes</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -454,7 +439,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Marcoussis</image:title>
     </image:image>
@@ -474,7 +459,7 @@
         <image:title>Étanchéité de toiture Marcoussis</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Marcoussis</image:title>
     </image:image>
@@ -499,19 +484,14 @@
         <image:title>Urgence réparation toiture Marcoussis</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -522,7 +502,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Savigny-sur-orge</image:title>
     </image:image>
@@ -542,7 +522,7 @@
         <image:title>Étanchéité de toiture Savigny-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Savigny-sur-orge</image:title>
     </image:image>
@@ -567,19 +547,14 @@
         <image:title>Urgence réparation toiture Savigny-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -590,7 +565,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Dourdan</image:title>
     </image:image>
@@ -610,7 +585,7 @@
         <image:title>Étanchéité de toiture Dourdan</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Dourdan</image:title>
     </image:image>
@@ -635,19 +610,14 @@
         <image:title>Urgence réparation toiture Dourdan</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -658,7 +628,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Ris-orangis</image:title>
     </image:image>
@@ -678,7 +648,7 @@
         <image:title>Étanchéité de toiture Ris-orangis</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Ris-orangis</image:title>
     </image:image>
@@ -703,19 +673,14 @@
         <image:title>Urgence réparation toiture Ris-orangis</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
     </url>
     <url>
@@ -759,7 +724,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Arpajon</image:title>
     </image:image>
@@ -779,7 +744,7 @@
         <image:title>Étanchéité de toiture Arpajon</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Arpajon</image:title>
     </image:image>
@@ -804,19 +769,14 @@
         <image:title>Urgence réparation toiture Arpajon</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture à Arpajon</image:title>
     </image:image>
 </url>
 <url>
@@ -827,7 +787,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Egly</image:title>
     </image:image>
@@ -847,7 +807,7 @@
         <image:title>Étanchéité de toiture Egly</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Egly</image:title>
     </image:image>
@@ -872,19 +832,14 @@
         <image:title>Urgence réparation toiture Egly</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture à Egly</image:title>
     </image:image>
 </url>
 <url>
@@ -895,7 +850,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Saulx-les-chartreux</image:title>
     </image:image>
@@ -915,7 +870,7 @@
         <image:title>Étanchéité de toiture Saulx-les-chartreux</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Saulx-les-chartreux</image:title>
     </image:image>
@@ -940,19 +895,14 @@
         <image:title>Urgence réparation toiture Saulx-les-chartreux</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture à Saulx-les-chartreux</image:title>
     </image:image>
 </url>
 <url>
@@ -963,7 +913,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Draveil</image:title>
     </image:image>
@@ -983,7 +933,7 @@
         <image:title>Étanchéité de toiture Draveil</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Draveil</image:title>
     </image:image>
@@ -1008,19 +958,14 @@
         <image:title>Urgence réparation toiture Draveil</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1031,7 +976,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Morsang-sur-orge</image:title>
     </image:image>
@@ -1051,7 +996,7 @@
         <image:title>Étanchéité de toiture Morsang-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Morsang-sur-orge</image:title>
     </image:image>
@@ -1076,19 +1021,14 @@
         <image:title>Urgence réparation toiture Morsang-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1099,7 +1039,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Mennecy</image:title>
     </image:image>
@@ -1119,7 +1059,7 @@
         <image:title>Étanchéité de toiture Mennecy</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Mennecy</image:title>
     </image:image>
@@ -1144,19 +1084,14 @@
         <image:title>Urgence réparation toiture Mennecy</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1167,7 +1102,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Bretigny-sur-orge</image:title>
     </image:image>
@@ -1187,7 +1122,7 @@
         <image:title>Étanchéité de toiture Bretigny-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Bretigny-sur-orge</image:title>
     </image:image>
@@ -1212,19 +1147,14 @@
         <image:title>Urgence réparation toiture Bretigny-sur-orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1235,7 +1165,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Etrechy</image:title>
     </image:image>
@@ -1255,7 +1185,7 @@
         <image:title>Étanchéité de toiture Etrechy</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Etrechy</image:title>
     </image:image>
@@ -1280,19 +1210,14 @@
         <image:title>Urgence réparation toiture Etrechy</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1303,7 +1228,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture La-Norville</image:title>
     </image:image>
@@ -1323,7 +1248,7 @@
         <image:title>Étanchéité de toiture La-Norville</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture La-Norville</image:title>
     </image:image>
@@ -1348,19 +1273,14 @@
         <image:title>Urgence réparation toiture La-Norville</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1371,7 +1291,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Ollainville</image:title>
     </image:image>
@@ -1391,7 +1311,7 @@
         <image:title>Étanchéité de toiture Ollainville</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Ollainville</image:title>
     </image:image>
@@ -1416,19 +1336,14 @@
         <image:title>Urgence réparation toiture Ollainville</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1439,7 +1354,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Leuville-sur-Orge</image:title>
     </image:image>
@@ -1459,7 +1374,7 @@
         <image:title>Étanchéité de toiture Leuville-sur-Orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Leuville-sur-Orge</image:title>
     </image:image>
@@ -1484,19 +1399,14 @@
         <image:title>Urgence réparation toiture Leuville-sur-Orge</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1507,7 +1417,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Montlhery</image:title>
     </image:image>
@@ -1527,7 +1437,7 @@
         <image:title>Étanchéité de toiture Montlhery</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Montlhery</image:title>
     </image:image>
@@ -1552,19 +1462,14 @@
         <image:title>Urgence réparation toiture Montlhery</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture 91 Essonne</image:title>
     </image:image>
 </url>
 <url>
@@ -1575,7 +1480,7 @@
         <image:title>W.Nicolas - Couverture et Rénovation</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/reparation-toiture.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/reparation-toiture.webp</image:loc>
         <image:caption>Découvrez nos services de réparation de toiture pour assurer votre sécurité et votre confort.</image:caption>
         <image:title>Réparation de toiture Bures-sur-yvette</image:title>
     </image:image>
@@ -1595,7 +1500,7 @@
         <image:title>Étanchéité de toiture Bures-sur-yvette</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.jpg</image:loc>
+        <image:loc>https://couvreurs-91.fr/tile-707890_1280-min.webp</image:loc>
         <image:caption>Découvrez notre expertise en peinture de toiture pour une protection et une esthétique durables.</image:caption>
         <image:title>Peinture de toiture Bures-sur-yvette</image:title>
     </image:image>
@@ -1620,19 +1525,14 @@
         <image:title>Urgence réparation toiture Bures-sur-yvette</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/dalep-2100.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/dalep-2100.webp</image:loc>
         <image:caption>Découvrez comment notre traitement avec Dalep 2100 améliore l'efficacité de nos services de couverture.</image:caption>
         <image:title>Traitement avec Dalep 2100</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://couvreurs-91.fr/garantie-10-ans.png</image:loc>
+        <image:loc>https://couvreurs-91.fr/garantie-10-ans.webp</image:loc>
         <image:caption>Découvrez notre garantie de 10 ans qui assure la qualité et la durabilité de nos services de couverture.</image:caption>
         <image:title>Garantie 10 ans</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://couvreurs-91.fr/couvreur-essonne.png</image:loc>
-        <image:caption>Découvrez nos services de couverture en Essonne, adaptés à tous vos besoins en rénovation et entretien.</image:caption>
-        <image:title>Services de couverture à Bures-sur-yvette</image:title>
     </image:image>
 </url>
 
