@@ -78,8 +78,6 @@ a{text-decoration:none;color:#000;font-weight:600}
 .form-container button{display:flex;justify-content:center;background-color:#000;color:#fff;padding:10px 60px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
 form{width:90%}
 .form-container textarea{width:100%;padding:8px;margin-bottom:3%;box-sizing:border-box;border-radius:10px;border:2px solid #333;background-color:#f2f2f2;color:#000;resize:vertical}
-.reseau-contact{text-align:center;margin-bottom:7%}
-.reseau-contact a{font-size:13px;color:#fff}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 5%;}
 .contact-icon,.icon-anime,.realisation{display:none}
@@ -157,8 +155,6 @@ body{margin-top:18%}
 .form-container button{display:flex;justify-content:center;background-color:#000;color:#fff;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
 .form-container button:hover{background-color:#ffa929}
 form{width:95%}
-.reseau-contact{text-align:center;margin-bottom:13%}
-.reseau-contact a{font-size:13px;color:#fff}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 10%;}
 .realisation-pc,.container-index,.container-index2{display:none}
 }
