@@ -8,7 +8,7 @@
     <meta name="description"
         content="WN Couverture, entreprise de couverture dans l'Essonne (91), propose réparation, nettoyage, isolation, étanchéité et peinture de toiture, gouttières zinc/PVC, fenêtres de toit et ravalement de façade. Interventions d'urgence disponibles." />
     <link href="style.css" rel="stylesheet">
-    <title>Mentions légales</title>
+    <title>Mentions légales - WN Couverture</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="./logo/apple-icon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./logo/android-icon-32x32.png">
@@ -17,7 +17,7 @@
     <meta name="msapplication-TileImage" content="./logo/ms-icon-32x32.png">
     <meta name="msapplication-TileImage" content="./logo/ms-icon-96x96.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="preload" href="toiture-index.avif" as="image">
+    <link rel="preload" href="couvreur_91.webp" as="image">
 </head>
 
 <body>
@@ -55,13 +55,13 @@
     </header>
     <main>
         <div class="image-index">
-            <img src="toiture-index.avif" alt="Aquaserv entreprise couverture Paris 75" class="background-image">
-            <h1><i>Aquaserv couverture 75 - mentions legales</i></h1>
+            <img src="couvreur_91.webp" alt="Aquaserv entreprise couverture Paris 75" class="background-image">
+            <h1><i>Mentions légales - WN Couverture</i></h1>
             <a class="bouton-devis1" href="devis-pour-toiture-91-essonne.html" title="prix couverture">DEVIS GRATUIT</a>
         </div>
         <h1>MENTIONS LÉGALES</h1>
-        <h2>Propriétaire Aquaserv couverture</h2>
-        <p>SASU, dont le siège social est établi au 9 RUE CONDORCET 91350 GRIGNY.
+        <h2>Propriétaire WN Couverture</h2>
+        <p>Micro-entreprise, dont le siège social est établi au 4 avenue de la république 91380 Chilly-mazarin.
             Immatriculée au Registre du Commerce et des Sociétés sous le numéro 898 636 832. Le numéro SIRET est le :
             89863683200021.</p>
         <h2>Hébergeur Ionos</h2>
@@ -184,30 +184,6 @@
                 observer.observe(element);
             });
         });
-    </script>
-    <script>
-        function validateForm() {
-            var name = document.getElementById("name").value.trim();
-            var tel = document.getElementById("tel").value.trim();
-            var services = document.getElementById("services").value.trim();
-            var comments = document.getElementById("comments").value.trim();
-            if (name === "" || tel === "" || services === "" || comments === "") {
-                alert("Champs obligatoires.");
-                return false;
-            }
-            var telPattern = /^(06|07|\+336|\+337)\d{8}$/;
-            if (!telPattern.test(tel)) {
-                alert("Veuillez entrer un numéro de téléphone valide.");
-                return false;
-            }
-            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
-            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
-                alert("Pas autorisé.");
-                return false;
-            }
-            return true;
-        }
     </script>
 </body>
 
