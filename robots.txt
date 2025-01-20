@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /traitement.php
+Disallow: /mentions-legales.html
 Sitemap: https://couvreurs-91.fr/sitemap.xml
