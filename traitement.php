@@ -67,7 +67,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'W.Nicolas');
+    $mail->setFrom('contact@webprime.fr', 'Couvreur 91');
     $mail->addAddress('w.nicolascouverture@gmail.com');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';

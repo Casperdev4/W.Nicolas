@@ -19,7 +19,7 @@ env:
 jobs:
 # Please do not rename this job
   build-project:
-    name: build W.Nicolas
+    name: build Couvreur 91
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -37,5 +37,5 @@ jobs:
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
-          config-file: .deploy-now/W.Nicolas/config.yaml
+          config-file: .deploy-now/Couvreur 91/config.yaml
           action: upload
