@@ -81,6 +81,18 @@ form{width:90%}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 5%;}
 .contact-icon,.serv-mob-three,.realisation{display:none}
+
+.hp-wrap {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media screen and (max-width:767.98px) {
 h1,h2{color:#000}
 h4,p{color:#000;text-align:center}
