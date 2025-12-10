@@ -15,7 +15,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./logo/android-icon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./logo/android-icon-96x96.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./logo/ms-icon-32x32.png">
     <meta name="msapplication-TileImage" content="./logo/ms-icon-96x96.png">
     <meta name="theme-color" content="#ffffff">
     <script type="application/ld+json">
@@ -73,11 +72,11 @@
             <a href="https://couvreurs-91.fr/" class="logo-link">
                 <img src="wn-couverture.png" alt="entreprise de couverture Morangis" class="logo">
             </a>
-            <label for="btn" class="icon">
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="80" height="11"></rect>
-                    <rect y="26" width="60" height="11"></rect>
-                    <rect y="52" width="70" height="11"></rect>
+            <label for="btn" class="icon" aria-label="Menu de navigation">
+                <svg viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
+                    <rect width="80" height="11" fill="currentColor"></rect>
+                    <rect y="26" width="60" height="11" fill="currentColor"></rect>
+                    <rect y="52" width="70" height="11" fill="currentColor"></rect>
                 </svg>
             </label>
             <input type="checkbox" id="btn">
@@ -524,16 +523,7 @@
         </div>
         <div class="contact-icon"><a href="tel:+33788415500" title="couvreur zingueur Morangis">07 88 41 55 00</a></div>
     </footer>
-    <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink() {
-            list.forEach((item) =>
-                item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        list.forEach((item) =>
-            item.addEventListener('mouseover', activeLink));
-    </script>
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");

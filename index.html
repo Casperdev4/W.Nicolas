@@ -15,7 +15,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./logo/android-icon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./logo/android-icon-96x96.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./logo/ms-icon-32x32.png">
     <meta name="msapplication-TileImage" content="./logo/ms-icon-96x96.png">
     <meta name="theme-color" content="#ffffff">
     <script type="application/ld+json">
@@ -98,9 +97,7 @@
                     "@type": "Person",
                     "name": "Cassy Lafleur"
                 },
-                "reviewBody": "Je suis très heureux de Couvreur 91 pour le ravalement de ma maison et le nettoyage de ma toiture qui et revenue comme neuf il est exceptionnel, je recommande
-                Il est au meilleur prix
-                et la meilleure qualité",
+                "reviewBody": "Je suis très heureux de Couvreur 91 pour le ravalement de ma maison et le nettoyage de ma toiture qui et revenue comme neuf il est exceptionnel, je recommande. Il est au meilleur prix et la meilleure qualité",
                 "reviewRating": {
                     "@type": "Rating",
                     "ratingValue": "5",
@@ -125,11 +122,11 @@
             <a href="https://couvreurs-91.fr/" class="logo-link">
                 <img src="wn-couverture.png" alt="Couvreur 91" class="logo">
             </a>
-            <label for="btn" class="icon">
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="80" height="11"></rect>
-                    <rect y="26" width="60" height="11"></rect>
-                    <rect y="52" width="70" height="11"></rect>
+            <label for="btn" class="icon" aria-label="Menu de navigation">
+                <svg viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
+                    <rect width="80" height="11" fill="currentColor"></rect>
+                    <rect y="26" width="60" height="11" fill="currentColor"></rect>
+                    <rect y="52" width="70" height="11" fill="currentColor"></rect>
                 </svg>
             </label>
             <input type="checkbox" id="btn">
@@ -744,7 +741,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -762,16 +759,6 @@
         </div>
     </footer>
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink() {
-            list.forEach((item) =>
-                item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        list.forEach((item) =>
-            item.addEventListener('mouseover', activeLink));
-    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");
