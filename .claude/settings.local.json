@@ -6,7 +6,9 @@
       "Bash(powershell -Command \"Get-ChildItem -Filter ''*.html'' | Where-Object { $_Name -ne ''index.html'' } | ForEach-Object { $content = Get-Content $_FullName -Raw; $content = $content -replace ''<meta name=\"\"msapplication-TileImage\"\" content=\"\"./logo/ms-icon-32x32.png\"\">\\r?\\n\\s*<meta name=\"\"msapplication-TileImage\"\" content=\"\"./logo/ms-icon-96x96.png\"\">'', ''<meta name=\"\"msapplication-TileImage\"\" content=\"\"./logo/ms-icon-96x96.png\"\">''; Set-Content $_FullName $content -NoNewline }\")",
       "Bash(powershell -ExecutionPolicy Bypass -File fix-html.ps1:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File update-form.ps1:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File update-all-forms.ps1)"
     ]
   }
 }
