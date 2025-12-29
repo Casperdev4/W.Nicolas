@@ -204,7 +204,34 @@
                 embelliront et protégeront votre maison.
             </p>
         </div>
-        <h2 id="realisation">CONTACTEZ - NOUS</h2>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Quelles sont vos zones d'intervention ?</div>
+                <div class="faq-answer">
+                    <p>Nous intervenons dans tout le département de l'Essonne (91) ainsi que dans toute l'Île-de-France. Que vous soyez à Évry, Corbeil-Essonnes, Massy, Palaiseau ou ailleurs dans le 91, nous nous déplaçons chez vous.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Proposez-vous des devis gratuits ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous réalisons des devis 100% gratuits et sans engagement. Appelez-nous au 07 88 41 55 00 ou remplissez notre formulaire de contact pour obtenir une estimation personnalisée sous 24h.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Êtes-vous couverts par une garantie décennale ?</div>
+                <div class="faq-answer">
+                    <p>Oui, notre entreprise dispose d'une assurance garantie décennale qui couvre tous nos travaux de couverture, d'étanchéité et de ravalement. Cette garantie vous protège pendant 10 ans après la réception des travaux.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous en urgence pour les fuites ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous proposons un service d'intervention d'urgence 7j/7 pour les fuites de toiture et les dégâts des eaux. Contactez-nous immédiatement au 07 88 41 55 00 pour une intervention rapide.</p>
+                </div>
+            </div>
+        </section>
+        <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
                 <img src="wn-couverture.png" alt="couvreur autour de moi">
@@ -249,7 +276,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -357,6 +384,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

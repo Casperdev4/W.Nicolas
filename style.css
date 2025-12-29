@@ -56,7 +56,8 @@ a{text-decoration:none;color:#000;font-weight:600}
 .image2{width:40%;height:270px;margin-right:5%}
 .ct2 .text2{text-align:center}
 .realisation-pc{display:flex;justify-content:center;margin-top:5%;margin-bottom:7%;gap:5%}
-.realisation-pc img{width:20%;height:auto}
+.realisation-pc img{width:20%;height:auto;border-radius:15px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);transition:transform 0.3s ease, box-shadow 0.3s ease;cursor:pointer}
+.realisation-pc img:hover{transform:scale(1.05);box-shadow: 0 8px 25px rgba(240, 144, 0, 0.4)}
 .cont img{display:flex;justify-content:center;width:15%;height:auto;margin:7% auto 5%}
 .cont h3{font-size:22px;margin-bottom:3%}
 .cont2 img{display:flex;justify-content:center;width:40%;height:auto;margin:7% auto 5%}
@@ -168,7 +169,7 @@ body{margin-top:18%}
 .bouton-devis2{font-size:19px;padding:3%;margin:5% 25% 7%}
 .btwo{display:flex;justify-content:center;color:#fff;font-size:18px;padding:2%;text-decoration:none;opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;margin:5% 15% 10%}
 .realisation{display:flex;justify-content:center;margin-bottom:10%}
-.realisation img{width:80%;height:auto;margin:0 2%}
+.realisation img{width:80%;height:auto;margin:0 2%;border-radius:15px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)}
 #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}
 #contact h5{margin-top:10%;margin-bottom:5%;font-weight:600}
 #contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}
