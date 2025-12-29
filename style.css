@@ -14,14 +14,15 @@ p{color:#000;font-size:20px;margin-left:5%;margin-right:5%;text-align:center;pad
 a{text-decoration:none;color:#000;font-weight:600}
 .histoire{background-color:#000;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #f09000;border-radius:20px 20px 20px 0}
 .histoire h4,.histoire p{color:#fff}
-#tarif{background-color:#000;padding:2%;width:100%;margin:10% auto}
+#tarif{background-color:#000;padding:2% 3%;width:90%;margin:10% auto;border-radius:20px;box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3)}
 #tarif h2,#tarif h3,#tarif p{color:#fff}
 #tarif p{text-align:left}
 #tarif a{color:#000}
 .valeur h3,.valeur h4{margin-bottom:0;color:#fff;text-align:left}
 .valeur h3,.valeur h4,.valeur p{text-align:left}
-.valeur{background-color:#000;width:75%;margin-left:auto;margin-right:auto;box-shadow:2px 3px 0 2px #f09000;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}
+.valeur{background-color:#000;width:75%;margin-left:auto;margin-right:auto;box-shadow:2px 3px 0 2px #f09000;opacity:0;transform:translateX(-50px);transition:opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);border-radius:20px 20px 20px 0}
 .valeur.slide-in-done{opacity:1;transform:translateX(0)}
+.valeur:hover{box-shadow:4px 5px 0 4px #f09000, 0 10px 30px rgba(240, 144, 0, 0.2)}
 .valeur .confiance{display:flex;align-items:center;margin-top:5%;margin-left:2%;font-size:35px;text-align:left}
 .valeur h3{display:flex;align-items:center;font-size:30px}
 .valeur h4{font-size:20px;margin-top:3%}
@@ -42,8 +43,10 @@ a{text-decoration:none;color:#000;font-weight:600}
 .background-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1}
 .image-one h1{width:80%;padding: 1%;margin-top:auto;z-index:1;font-family:Georgia,serif;color:#fff;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);}
 .serv-mob-three{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
-.i-t-1,.i-t-2,.i-t-3,.i-t-4{text-align:center;margin-top:5%;margin-bottom:15%}
-.i-t-1 img,.i-t-2 img,.i-t-3 img,.i-t-4 img{width:45%;height:auto}
+.i-t-1,.i-t-2,.i-t-3,.i-t-4{text-align:center;margin-top:5%;margin-bottom:15%;transition:transform 0.3s ease, box-shadow 0.3s ease;cursor:pointer}
+.i-t-1:hover,.i-t-2:hover,.i-t-3:hover,.i-t-4:hover{transform:translateY(-10px)}
+.i-t-1 img,.i-t-2 img,.i-t-3 img,.i-t-4 img{width:45%;height:auto;border-radius:15px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);transition:box-shadow 0.3s ease}
+.i-t-1:hover img,.i-t-2:hover img,.i-t-3:hover img,.i-t-4:hover img{box-shadow: 0 8px 25px rgba(240, 144, 0, 0.4)}
 .i-t-1 p,.i-t-2 p,.i-t-3 p,.i-t-4 p{margin:5px 0 0;padding:8px;font-size:22px}
 .btwo.slide-up{opacity:1;transform:translateY(0)}
 .ct{display:flex;align-items:center;margin-top:7%;margin-bottom:7%}
@@ -133,7 +136,7 @@ body{margin-top:18%}
 #nos-valeurs,#prestation,#realisation,.histoire{margin-top:15%}
 .histoire{width:95%}
 #prestation{margin-top:17%}
-#tarif{width:95%;margin-top:15%;margin-bottom:15%}
+#tarif{width:95%;margin-top:15%;margin-bottom:15%;border-radius:15px;padding:4% 3%}
 #nos-valeurs{margin-bottom:13%}
 .valeur .confiance,.valeur h3{display:flex;text-align:left;margin-top:5%}
 .valeur{width:95%;padding-left:3%;padding-right:3%;margin-bottom:10%;margin-left:auto;margin-right:auto;box-shadow:2px 3px 0 2px #f09000;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}
@@ -169,8 +172,9 @@ body{margin-top:18%}
 #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}
 #contact h5{margin-top:10%;margin-bottom:5%;font-weight:600}
 #contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}
-.contact-icon{display:flex;position:fixed;padding:1% 2%;background-color:#000;right:4%;bottom:5%;border-radius:20px;z-index: 5}
+.contact-icon{display:flex;position:fixed;padding:1% 2%;background-color:#000;right:4%;bottom:5%;border-radius:20px;z-index: 5;animation:pulse 2s infinite;box-shadow: 0 0 0 0 rgba(240, 144, 0, 0.7)}
 .contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
+@keyframes pulse{0%{box-shadow: 0 0 0 0 rgba(240, 144, 0, 0.7)}70%{box-shadow: 0 0 0 15px rgba(240, 144, 0, 0)}100%{box-shadow: 0 0 0 0 rgba(240, 144, 0, 0)}}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}
 .liens-wp{margin-bottom:-3%}
 .form-two{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px}
