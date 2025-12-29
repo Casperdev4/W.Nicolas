@@ -8,7 +8,11 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(powershell -ExecutionPolicy Bypass -File update-form.ps1:*)",
-      "Bash(powershell -ExecutionPolicy Bypass -File update-all-forms.ps1)"
+      "Bash(powershell -ExecutionPolicy Bypass -File update-all-forms.ps1)",
+      "Bash(git push:*)",
+      "Bash(powershell -Command \"Get-ChildItem -Filter ''*.html'' | Where-Object { $_Name -ne ''index.html'' } | ForEach-Object { \\(Get-Content $_FullName -Raw\\) -replace ''857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a'', ''ee06ea07f74e2feaa4c56e1f6fc64a8304f6dc7a3fd398ce0b005b50530f5e14'' | Set-Content $_FullName -NoNewline }\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File update-webhook.ps1:*)",
+      "Bash(del \"c:\\\\Users\\\\Webpr\\\\Desktop\\\\Sites\\\\WebPrime\\\\W.Nicolas\\\\update-webhook.ps1\")"
     ]
   }
 }
