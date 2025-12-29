@@ -2,6 +2,7 @@ body{margin:0;padding:0;background-color:#fff;margin-top:5%;font-family:'Roboto'
 hr{width:20%;margin-left:auto;margin-right:auto;height:6px;background:#f09000;border-radius:15px}
 h1,h2{color:#000;text-align:center}
 h1,h2,h3,h4{text-align:center}
+h1,h2,h3{text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)}
 h1{font-weight:550;font-size:55px;margin-bottom:5%;margin-top:5%;line-height:1.3}
 h2{font-size:40px;font-weight:530;margin:10% 3% 2%}
 h3{color:#000;font-weight:200;font-size:18px;margin:2% 3% 5%;line-height:1.5}
@@ -39,7 +40,7 @@ a{text-decoration:none;color:#000;font-weight:600}
 .nav-menu a:hover,.show:hover{color:#000}
 .image-one{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;height:600px}
 .background-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1}
-.image-one h1{width:80%;padding: 1%;margin-top:auto;z-index:1;font-family:Georgia,serif;background-color: rgba(255, 255, 255, 0.2);border-radius: 15px;}
+.image-one h1{width:80%;padding: 1%;margin-top:auto;z-index:1;font-family:Georgia,serif;color:#fff;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);}
 .serv-mob-three{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
 .i-t-1,.i-t-2,.i-t-3,.i-t-4{text-align:center;margin-top:5%;margin-bottom:15%}
 .i-t-1 img,.i-t-2 img,.i-t-3 img,.i-t-4 img{width:45%;height:auto}
@@ -65,9 +66,9 @@ a{text-decoration:none;color:#000;font-weight:600}
 #contact p{color:#fff}
 .liens a{margin:0;color:#fff;font-size:16px}
 .liens-wp a,.liens-wp p{color:#fff;font-size:12px}
-.bone{background-color:#000;color:#fff;padding:1% 5%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%;z-index:1}
-.bouton-devis2{display:flex;justify-content:center;background-color:#f09000;font-size:22px;padding:1%;border-radius:25px;text-decoration:none;margin:2% 35%}
-.btwo{opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;display:flex;justify-content:center;background-color:#000;color:#fff;font-size:20px;padding:1%;text-decoration:none;border-radius:25px;margin:2% 35%}
+.bone{background-color:#000;color:#fff;padding:1% 5%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%;z-index:1;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)}
+.bouton-devis2{display:flex;justify-content:center;background-color:#f09000;font-size:22px;padding:1%;border-radius:25px;text-decoration:none;margin:2% 35%;box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5)}
+.btwo{opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;display:flex;justify-content:center;background-color:#000;color:#fff;font-size:20px;padding:1%;text-decoration:none;border-radius:25px;margin:2% 35%;box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5)}
 .btwo:hover{background-color:#01002c}
 .btwo:hover, .bone:hover,.form-two button:hover{background-color:#f09000}
 .form-two{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:50%;background-color:#ffbb55;padding:20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);color:#fff;border-radius:20px}
