@@ -150,6 +150,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Quelle est la durée de vie d'une étanchéité de toiture ?</div>
+                <div class="faq-answer">
+                    <p>Une étanchéité de toiture bien réalisée peut durer entre 15 et 25 ans selon les matériaux utilisés et l'entretien effectué. Les membranes bitumineuses ont une durée de vie d'environ 15-20 ans, tandis que les membranes PVC ou EPDM peuvent atteindre 25 ans.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Comment savoir si mon toit a un problème d'étanchéité ?</div>
+                <div class="faq-answer">
+                    <p>Les signes révélateurs sont : des taches d'humidité sur les plafonds ou murs, des moisissures, une odeur de moisi, des infiltrations d'eau visibles lors de fortes pluies, ou des cloques et fissures sur la membrane existante.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Peut-on faire l'étanchéité d'un toit terrasse soi-même ?</div>
+                <div class="faq-answer">
+                    <p>Il est fortement déconseillé de réaliser soi-même l'étanchéité d'un toit terrasse. Cette opération nécessite un savoir-faire technique, des équipements spécifiques et une garantie décennale que seul un professionnel peut fournir.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous en urgence pour les fuites ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous intervenons en urgence 7j/7 pour les problèmes de fuites et d'infiltrations. Contactez-nous au 07 88 41 55 00 pour une intervention rapide dans tout le département de l'Essonne (91).</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -195,7 +222,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -310,6 +337,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

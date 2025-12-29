@@ -142,6 +142,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Combien coûte une réparation de toiture ?</div>
+                <div class="faq-answer">
+                    <p>Le prix d'une réparation de toiture varie selon l'ampleur des dégâts, le type de matériaux et la surface à traiter. Pour une estimation précise, contactez-nous au 07 88 41 55 00 pour un devis gratuit et personnalisé.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quels sont les signes d'une toiture à réparer ?</div>
+                <div class="faq-answer">
+                    <p>Les principaux signes sont : tuiles cassées ou manquantes, infiltrations d'eau, taches d'humidité au plafond, mousse excessive, gouttières bouchées ou affaissées, et augmentation de vos factures de chauffage.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous en urgence ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous intervenons en urgence 7j/7 pour les problèmes de toiture urgents comme les fuites importantes ou les dégâts suite à une tempête. Appelez-nous au 07 88 41 55 00.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quelle garantie proposez-vous ?</div>
+                <div class="faq-answer">
+                    <p>Nous offrons une garantie décennale sur tous nos travaux de réparation de toiture, conformément à la législation française. Cela vous assure une protection pendant 10 ans.</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -187,7 +214,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -301,6 +328,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

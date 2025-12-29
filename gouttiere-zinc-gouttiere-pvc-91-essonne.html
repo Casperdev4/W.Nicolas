@@ -146,6 +146,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Quelle différence entre gouttière zinc et PVC ?</div>
+                <div class="faq-answer">
+                    <p>Le zinc est plus durable (50 ans et plus) et esthétique mais plus coûteux. Le PVC est économique, léger et facile à installer avec une durée de vie de 15-25 ans. Le choix dépend de votre budget et de l'esthétique souhaitée.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Comment savoir si mes gouttières sont à changer ?</div>
+                <div class="faq-answer">
+                    <p>Les signes d'usure sont : fuites aux joints, rouille ou fissures, affaissement de la gouttière, débordements fréquents, traces d'eau sur les murs ou écaillage de la peinture près des gouttières.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">À quelle fréquence nettoyer ses gouttières ?</div>
+                <div class="faq-answer">
+                    <p>Nous recommandons un nettoyage au moins deux fois par an : au printemps et en automne après la chute des feuilles. Un entretien régulier évite les obstructions et prolonge la durée de vie de vos gouttières.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Combien coûte la pose de gouttières ?</div>
+                <div class="faq-answer">
+                    <p>Le prix varie selon le matériau (zinc ou PVC), la longueur à installer et la configuration de votre toiture. Contactez-nous au 07 88 41 55 00 pour un devis gratuit et personnalisé.</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -191,7 +218,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -305,6 +332,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

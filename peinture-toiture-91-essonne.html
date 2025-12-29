@@ -154,6 +154,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Combien de temps dure une peinture de toiture ?</div>
+                <div class="faq-answer">
+                    <p>Une peinture de toiture bien réalisée avec des produits de qualité professionnelle peut durer entre 10 et 15 ans. La durée dépend de l'exposition aux intempéries et de l'entretien régulier.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Faut-il nettoyer la toiture avant de la peindre ?</div>
+                <div class="faq-answer">
+                    <p>Oui, un nettoyage préalable est indispensable. Nous effectuons un démoussage et un nettoyage complet pour garantir une bonne adhérence de la peinture et un résultat durable.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Peut-on peindre tous les types de toiture ?</div>
+                <div class="faq-answer">
+                    <p>Nous pouvons peindre la plupart des toitures : tuiles en terre cuite, tuiles béton, ardoises, tôles métalliques et fibrociment. Chaque matériau nécessite une peinture et une préparation adaptées.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quelle est la meilleure saison pour peindre sa toiture ?</div>
+                <div class="faq-answer">
+                    <p>Le printemps et l'automne sont les meilleures périodes. La température idéale se situe entre 10°C et 25°C, avec un temps sec. Nous évitons les périodes de gel, de forte chaleur ou de pluie.</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -199,7 +226,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -314,6 +341,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

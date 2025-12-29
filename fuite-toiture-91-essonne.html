@@ -142,6 +142,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous en urgence 7j/7 ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous intervenons en urgence 7 jours sur 7 dans tout le département de l'Essonne (91). Appelez-nous au 07 88 41 55 00 pour une intervention rapide.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Que faire en cas de fuite pendant la nuit ?</div>
+                <div class="faq-answer">
+                    <p>Placez un récipient sous la fuite pour récupérer l'eau, protégez vos meubles avec des bâches, et contactez-nous dès que possible. Ne montez jamais sur le toit vous-même, surtout de nuit.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Combien coûte une intervention d'urgence ?</div>
+                <div class="faq-answer">
+                    <p>Le prix varie selon la nature et l'ampleur des dégâts. Nous vous fournissons un diagnostic gratuit et un devis détaillé avant toute intervention. Appelez-nous pour une estimation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Mon assurance prend-elle en charge les fuites ?</div>
+                <div class="faq-answer">
+                    <p>La plupart des assurances habitation couvrent les dégâts des eaux. Nous vous fournissons tous les documents nécessaires (photos, rapport d'intervention, devis) pour votre dossier d'assurance.</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -187,7 +214,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -301,6 +328,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 

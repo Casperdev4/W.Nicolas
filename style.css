@@ -59,8 +59,9 @@ a{text-decoration:none;color:#000;font-weight:600}
 .cont2 img{display:flex;justify-content:center;width:40%;height:auto;margin:7% auto 5%}
 .cont2 p,.cont3 p{margin-left:3%;margin-right:3%;text-align:left}
 .cont2 h3{font-size:20px;text-align:left;font-weight:600;margin:10% 5% 3% 6%}
-.cont3 img{display:flex;justify-content:center;width:30%;height:auto;margin:5% auto 3%}
-.cont3 h3{font-size:20px;text-align:left;font-weight:600;margin:10% 5% 3% 6%}
+.cont3{background-color:#f8f8f8;padding:3% 5%;margin:5% auto;width:90%;border-radius:20px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)}
+.cont3 img{display:flex;justify-content:center;width:30%;height:auto;margin:3% auto;border-radius:15px;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15)}
+.cont3 h3{font-size:20px;text-align:left;font-weight:600;margin:4% 0 2%;padding-left:15px;border-left:4px solid #f09000;color:#000}
 #contact{margin-top:10%;padding:2%;background-color:#000}
 #contact h5{text-align:center;margin:5% 3% 3%;color:#f09000;font-weight:600;font-size:20px}
 #contact p{color:#fff}
@@ -76,12 +77,22 @@ a{text-decoration:none;color:#000;font-weight:600}
 .image-container img{width:100%;height:auto;border-radius:20px}
 .form-two label{display:block;margin-bottom:8px;font-size:20px;color:#000}
 .form-two input,.form-two select{width:100%;height:35px;padding:8px;margin-bottom:16px;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000}
-.form-two button{display:flex;justify-content:center;background-color:#000;color:#fff;padding:10px 60px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
+.form-two button{display:flex;justify-content:center;background-color:#000;color:#fff;padding:10px 60px;font-size:18px;margin:3% auto 2%;border:none;border-radius:25px;cursor:pointer;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)}
 form{width:90%}
 .form-two textarea{width:100%;padding:8px;margin-bottom:3%;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000;resize:vertical}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 5%;}
 .contact-icon,.serv-mob-three,.realisation{display:none}
+.faq{width:90%;margin:5% auto;padding:3%}
+.faq h2{margin-bottom:5%;font-size:28px}
+.faq-item{background-color:#f8f8f8;margin-bottom:15px;border-radius:10px;overflow:hidden;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.faq-question{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;cursor:pointer;font-weight:600;font-size:18px;color:#000;background-color:#fff;border-left:4px solid #f09000}
+.faq-question:hover{background-color:#f8f8f8}
+.faq-question::after{content:'+';font-size:24px;font-weight:bold;color:#f09000;transition:transform 0.3s}
+.faq-item.active .faq-question::after{transform:rotate(45deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease-out;padding:0 20px;background-color:#f8f8f8}
+.faq-answer p{padding:15px 0;margin:0;text-align:left;font-size:16px}
+.faq-item.active .faq-answer{max-height:300px}
 
 .hp-wrap {
     position: absolute !important;
@@ -136,9 +147,11 @@ body{margin-top:18%}
 .serv-mob-three h3.slide-up,.btwo.slide-up{opacity:1;transform:translateY(0)}
 .cont2 p{margin-left:3%;margin-right:3%}
 .cont2 h3{font-size:20px;text-align:left;margin:10% 5% 3% 6%}
-.cont3 h2{margin-top: 10%;margin-bottom: 8%;font-size: 25px;}
-.cont3 img{display:flex;width:80%;margin:0 auto 6%}
-.cont3 h3{font-size:20px;text-align:left;margin:5% 5% 3% 6%}
+.cont3{padding:5% 4%;margin:8% auto;width:95%;border-radius:15px}
+.cont3 h2{margin-top:5%;margin-bottom:8%;font-size:25px}
+.cont3 img{display:flex;width:70%;margin:0 auto 6%;border-radius:10px}
+.cont3 h3{font-size:21px;text-align:left;margin:5% 0 3%;padding-left:12px;text-shadow:none}
+.cont3 p{font-size:17px;text-align:left;margin:0 2% 3%}
 .i-t-1,.i-t-2,.i-t-3,.i-t-4{text-align:center;margin:5px 0;position:relative}
 .i-t-1 img,.i-t-2 img,.i-t-3 img,.i-t-4 img{width:100%;height:240px;margin-bottom:3%}
 .i-t-1 p,.i-t-2 p,.i-t-3 p,.i-t-4 p{margin-bottom:0;font-size:22px;letter-spacing:2px}
@@ -169,5 +182,6 @@ body{margin-top:18%}
 .form-two button:hover{background-color:#ffbb55}
 form{width:95%}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 10%;}
+.faq h2{margin-bottom:10%}
 .realisation-pc,.ct,.ct2{display:none}
 }

@@ -156,6 +156,33 @@
                 </p>
             </div>
         </section>
+        <section class="faq">
+            <h2>Questions fréquentes</h2>
+            <div class="faq-item">
+                <div class="faq-question">À quelle fréquence faut-il nettoyer sa toiture ?</div>
+                <div class="faq-answer">
+                    <p>Il est recommandé de nettoyer sa toiture tous les 2 à 3 ans en moyenne. Cependant, cette fréquence peut varier selon l'exposition de votre toit, la présence d'arbres à proximité et les conditions climatiques de votre région.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quel est le prix d'un démoussage de toiture ?</div>
+                <div class="faq-answer">
+                    <p>Le prix du démoussage varie selon la surface, l'état de la toiture et le traitement choisi. Contactez-nous au 07 88 41 55 00 pour obtenir un devis gratuit et personnalisé.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Le nettoyage haute pression abîme-t-il les tuiles ?</div>
+                <div class="faq-answer">
+                    <p>Un nettoyage haute pression mal réalisé peut effectivement endommager les tuiles. C'est pourquoi nous utilisons des techniques adaptées à chaque type de toiture et des pressions réglées en fonction du matériau.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Appliquez-vous un traitement anti-mousse ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous appliquons systématiquement un traitement anti-mousse professionnel (Dalep 2100) après le nettoyage pour protéger votre toiture et retarder la réapparition des mousses et lichens.</p>
+                </div>
+            </div>
+        </section>
         <h2>CONTACTEZ - NOUS</h2>
         <div class="form-two">
             <div class="image-container">
@@ -201,7 +228,7 @@
                 Jeudi : 08h - 20h <br>
                 Vendredi : 08h - 20h <br>
                 Samedi : 08h - 20h <br>
-                Dimanche : 08 - 20h <br><br>
+                Dimanche : 08h - 20h <br><br>
                 Adresse : 4 avenue de la république, 91380 Chilly-Mazarin
             </p>
             <h5>CONTACTEZ - NOUS</h5>
@@ -316,6 +343,14 @@
             }
             return false;
         }
+    </script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                var item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 
