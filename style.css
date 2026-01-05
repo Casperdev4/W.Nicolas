@@ -90,13 +90,12 @@ form{width:90%}
 .faq{width:90%;margin:5% auto;padding:3%}
 .faq h2{margin-bottom:5%;font-size:28px}
 .faq-item{background-color:#f8f8f8;margin-bottom:15px;border-radius:10px;overflow:hidden;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
-.faq-question{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;cursor:pointer;font-weight:600;font-size:18px;color:#000;background-color:#fff;border-left:4px solid #f09000}
-.faq-question:hover{background-color:#f8f8f8}
-.faq-question::after{content:'+';font-size:24px;font-weight:bold;color:#f09000;transition:transform 0.3s}
-.faq-item.active .faq-question::after{transform:rotate(45deg)}
-.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease-out;padding:0 20px;background-color:#f8f8f8}
-.faq-answer p{padding:15px 0;margin:0;text-align:left;font-size:16px}
-.faq-item.active .faq-answer{max-height:300px}
+.faq-item summary{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;cursor:pointer;font-weight:600;font-size:18px;color:#000;background-color:#fff;border-left:4px solid #f09000;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{background-color:#f8f8f8}
+.faq-item summary::after{content:'+';font-size:24px;font-weight:bold;color:#f09000;transition:transform 0.3s}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item p{padding:15px 20px;margin:0;text-align:left;font-size:16px;background-color:#f8f8f8}
 
 .hp-wrap {
     position: absolute !important;
