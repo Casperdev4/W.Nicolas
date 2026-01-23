@@ -8,7 +8,10 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(powershell -ExecutionPolicy Bypass -File update-form.ps1:*)",
-      "Bash(powershell -ExecutionPolicy Bypass -File update-all-forms.ps1)"
+      "Bash(powershell -ExecutionPolicy Bypass -File update-all-forms.ps1)",
+      "Bash(ls:*)",
+      "Bash(dir \"c:\\\\Users\\\\Webpr\\\\Desktop\\\\Sites\\\\WebPrime\\\\W.Nicolas\\\\peinture*\" /b)",
+      "Bash(git push)"
     ]
   }
 }
