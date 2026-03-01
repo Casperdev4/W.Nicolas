@@ -27,28 +27,23 @@ a{text-decoration:none;color:#000;font-weight:600}
 .valeur h3{display:flex;align-items:center;font-size:30px}
 .valeur h4{font-size:20px;margin-top:3%}
 .valeur p{margin-left:0;color:#fff;font-size:17px;margin-top:0}
-/* ========== NAVIGATION ========== */
 *{box-sizing:border-box;outline:0;margin:0;padding:0}
 
-/* Base navigation */
 .barnav0{display:flex;justify-content:space-between;align-items:center;position:fixed;top:0;left:0;right:0;z-index:1000;padding:12px 5%;background-color:#fff;box-shadow:0 2px 20px rgba(0,0,0,0.08);transition:all 0.3s ease}
 .logo-link{display:flex;align-items:center}
 .logo{max-height:70px;min-height:70px;transition:transform 0.3s ease}
 .logo:hover{transform:scale(1.02)}
 
-/* Burger menu icon */
 .burger{display:none;flex-direction:column;justify-content:center;align-items:center;width:32px;height:32px;cursor:pointer;z-index:1001}
 .burger span{display:block;width:26px;height:3px;background-color:#000;border-radius:3px;transition:all 0.3s cubic-bezier(0.68,-0.55,0.265,1.55)}
 .burger span:nth-child(1){transform:translateY(-8px)}
 .burger span:nth-child(3){transform:translateY(8px)}
 
-/* Burger to X animation */
 .barnav0 input{display:none}
 .barnav0 input:checked ~ .burger span:nth-child(1){transform:rotate(45deg)}
 .barnav0 input:checked ~ .burger span:nth-child(2){opacity:0;transform:scaleX(0)}
 .barnav0 input:checked ~ .burger span:nth-child(3){transform:rotate(-45deg)}
 
-/* Navigation menu */
 .nav-menu{display:flex;align-items:center;gap:35px;list-style:none;margin:0;padding:0}
 .nn a{position:relative;color:#000;text-decoration:none;font-size:1rem;font-weight:500;padding:8px 0;transition:color 0.3s ease}
 .nn a::after{content:'';position:absolute;bottom:0;left:50%;width:0;height:2px;background:linear-gradient(90deg,#f09000,#ffbb55);border-radius:2px;transition:all 0.3s ease;transform:translateX(-50%)}
@@ -106,29 +101,23 @@ form{width:90%}
 .elfsight-app-6a9fd721-250b-4039-9e48-555420b3700e {width: 90%;margin-left: auto;margin-right: auto;margin-top: 5%;}
 .contact-icon,.serv-mob-three,.realisation{display:none}
 
-/* DESKTOP IMPROVEMENTS */
-/* Navigation desktop - déjà défini plus haut */
 
-/* Hero section desktop */
 .image-one{height:85vh;min-height:600px}
 .image-one::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);z-index:0}
 .image-one h1{font-size:clamp(35px, 4vw, 60px);max-width:900px;letter-spacing:1px}
 .bone{padding:15px 40px;font-size:18px;transition:all 0.3s ease;letter-spacing:1px}
 .bone:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(240,144,0,0.4)}
 
-/* Services grid desktop */
 .serv-pc{display:grid;grid-template-columns:repeat(4, 1fr);gap:30px;padding:0 5%;margin:5% auto}
 .i-t-1,.i-t-2,.i-t-3,.i-t-4{margin:0;padding:20px;background:#fff;border-radius:20px;box-shadow:0 4px 15px rgba(0,0,0,0.08);transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)}
 .i-t-1:hover,.i-t-2:hover,.i-t-3:hover,.i-t-4:hover{transform:translateY(-15px);box-shadow:0 20px 40px rgba(240,144,0,0.2)}
 .i-t-1 img,.i-t-2 img,.i-t-3 img,.i-t-4 img{width:100%;height:200px;object-fit:cover;border-radius:15px}
 .i-t-1 p,.i-t-2 p,.i-t-3 p,.i-t-4 p{font-size:18px;font-weight:600;margin-top:15px;color:#000}
 
-/* Section tarifs desktop */
 #tarif{width:85%;padding:4% 5%;position:relative;overflow:hidden}
 #tarif::before{content:'';position:absolute;top:-50%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(240,144,0,0.15) 0%,transparent 70%);border-radius:50%}
 #tarif h2{font-size:36px;margin-bottom:3%}
 
-/* Section valeurs desktop */
 #nos-valeurs{margin-bottom:3%}
 section:has(.valeur){display:grid;grid-template-columns:repeat(2, 1fr);gap:30px;padding:0 10%;margin-bottom:5%}
 section:has(.valeur) h2{grid-column:1/-1;margin-bottom:2%}
@@ -136,7 +125,6 @@ section:has(.valeur) h2{grid-column:1/-1;margin-bottom:2%}
 .valeur.slide-in-done{transform:none}
 .valeur:hover{transform:translateY(-5px);box-shadow:4px 5px 0 4px #f09000, 0 15px 35px rgba(240, 144, 0, 0.25)}
 
-/* Cont3 section desktop */
 .cont3{width:80%;padding:4% 6%;position:relative}
 .cont3::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,#f09000 0%,#ffbb55 100%);border-radius:4px 0 0 4px}
 .cont3 img{width:25%;border-radius:20px;transition:transform 0.3s ease}
@@ -144,24 +132,20 @@ section:has(.valeur) h2{grid-column:1/-1;margin-bottom:2%}
 .cont3 h3{font-size:22px}
 .cont3 p{font-size:18px;line-height:1.8}
 
-/* Boutons desktop */
 .btwo{margin:3% auto;width:fit-content;padding:15px 50px;font-size:18px;transition:all 0.3s ease}
 .btwo:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(240,144,0,0.4)}
 .bouton-devis2{transition:all 0.3s ease}
 .bouton-devis2:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(240,144,0,0.4)}
 
-/* Réalisations desktop */
 .realisation-pc{gap:3%;padding:0 5%}
 .realisation-pc img{width:18%;height:250px;object-fit:cover;border-radius:20px}
 
-/* Form desktop */
 .form-two{width:45%;padding:40px;border-radius:25px;position:relative;overflow:hidden}
 .form-two::before{content:'';position:absolute;top:-50%;right:-50%;width:200px;height:200px;background:radial-gradient(circle,rgba(255,255,255,0.2) 0%,transparent 70%);border-radius:50%}
 .form-two input,.form-two select,.form-two textarea{border-radius:12px;border:2px solid transparent;transition:all 0.3s ease}
 .form-two input:focus,.form-two select:focus,.form-two textarea:focus{border-color:#f09000;outline:none;box-shadow:0 0 0 3px rgba(240,144,0,0.1)}
 .form-two button{border-radius:25px;transition:all 0.3s ease}
 
-/* FAQ desktop - 2 colonnes */
 .faq{width:85%;padding:4%}
 .faq h2{font-size:32px;margin-bottom:4%}
 .faq-container{display:grid;grid-template-columns:repeat(2, 1fr);gap:20px}
@@ -170,7 +154,6 @@ section:has(.valeur) h2{grid-column:1/-1;margin-bottom:2%}
 .faq-item summary{font-size:16px;padding:18px 25px}
 .faq-item p{font-size:15px;padding:18px 25px}
 
-/* Footer desktop */
 #contact{padding:4% 10%;display:flex;flex-wrap:wrap;justify-content:space-around;gap:30px}
 #contact h5{width:100%;text-align:center;margin:20px 0 10px}
 #contact h5:first-child{margin-top:0}
@@ -178,7 +161,6 @@ section:has(.valeur) h2{grid-column:1/-1;margin-bottom:2%}
 #contact .liens{display:inline-block;margin:0 15px}
 .liens-wp{width:100%;text-align:center;margin-top:30px;padding-top:30px;border-top:1px solid rgba(255,255,255,0.1)}
 
-/* Animations globales desktop */
 @keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
 .histoire,.cont,.cont2{animation:fadeInUp 0.6s ease-out}
 
@@ -217,12 +199,10 @@ hr{width:40%;margin-bottom:2%}
 .form-two h2{font-size:18px;margin-top:2%;margin-bottom:6%}
 body{margin-top:18%}
 
-/* Mobile Navigation */
 .barnav0{padding:10px 4%;height:auto}
 .logo{max-height:65px;min-height:65px}
 .burger{display:flex}
 
-/* Mobile menu */
 .nav-menu{position:fixed;top:0;left:0;right:0;bottom:0;flex-direction:column;justify-content:center;align-items:center;gap:0;background:#fff;clip-path:circle(0% at calc(100% - 45px) 45px);transition:clip-path 0.5s ease-in-out}
 .barnav0 input:checked ~ .nav-menu{clip-path:circle(150% at calc(100% - 45px) 45px)}
 
